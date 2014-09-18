@@ -7,6 +7,12 @@ import java.io.ObjectOutputStream;
 
 /**
  * This is a prove of concept to try that Java serialization/deserialization can work across different version of JVM
+ * 
+ * I have tried to prove this by using Oracle JVM 1.6, 1.7 and 1.8
+ * 
+ * Ran this class to write object to the file in JVM 1.7 and read the object from Jvm 1.6 and 1.8, both of them work fine
+ * 
+ * 
  * @author wenjiezhang
  *
  */
